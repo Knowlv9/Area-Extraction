@@ -1,0 +1,6 @@
+#top_menu > ul > li{
+	list-style: none;
+}
+#top_menu > ul > li > a:hover{
+	text-decoration: none;
+}
