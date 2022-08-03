@@ -93,7 +93,9 @@ To make the annotation process a little less time-consuming, we will first annot
 
 Do the following:
 
-* python detect_cell.py [OPTIOIN] SAVEDIR [one or multi] PATH
+```
+python detect_cell.py [OPTIOIN] SAVEDIR [one or multi] PATH
+```
 
 The arguments are as follows:
 ```
@@ -108,9 +110,12 @@ The arguments are as follows:
 ```
 ### 2. Setting
 --------------------------------------
+
 #### 2-1. conf.ini
 -------------------------------------
+
 Please set up $ conf/conf.ini $. The following items are required.
+
 ```
 [DEFAULT]
 GUI_WIDTH = 1000
@@ -118,6 +123,7 @@ GUI_HEIGHT = 800
 SOURCE = SOURCEDIR
 DATASETS = DATASETSDIR
 ```
+
 #### 2-2 setting.json
 -------------------------------------
 In setting.json, set the annotation labels.
@@ -145,7 +151,9 @@ Note that class values must be prefixed with "class_". Also, the GUI is designed
 ### 3. GUI
 --------------------------------------
 
-* python main.py
+```
+python main.py
+```
 
 #### 3-1. dashboard.html
 ---------------------------------------
