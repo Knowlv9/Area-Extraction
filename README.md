@@ -87,7 +87,7 @@ Area-Extract
 
 In general, when annotating pathology images, it is necessary to display images larger than 2 GB. In particular, cytology images do not need to be displayed in WSI because they are annotated with a size of about 100px. Therefore, we made it possible to draw from images cropped at 1024 x 1024 as needed. In addition, to allow labeling according to study use, settings can be made in conf/setting.json.
 
-### 1. フィルタ処理による領域抽出
+### 1. Region extraction by filter processing
 --------------------------------------
 To make the annotation process a little less time-consuming, we will first annotate the cells by filtering.<br>
 
@@ -100,11 +100,11 @@ The arguments are as follows:
     one PTAH: image file path
     muti PATH: directory
     [OPTION]
-    --shrap_kernel_size (1): 鮮鋭化フィルタのカーネルサイズ
-    --mor_kernel_size (5): モルフォロジー変換のカーネルサイズ
-    --thrshold (230): 二値化するときの閾値
-    --area_thrshold (1200): 抽出領域の閾値
-    --figsize (10): 保存ファイルのサイズ
+    --shrap_kernel_size (1): Sharpening filter kernel size
+    --mor_kernel_size (5): Kernel size of morphological transformation
+    --thrshold (230): Threshold for binarization
+    --area_thrshold (1200): Extracted area threshold
+    --figsize (10): Save file size
 ```
 ### 2. Setting
 --------------------------------------
@@ -169,7 +169,4 @@ As a future plan, we would like to be able to fill in the annotated area to perf
 # License
 -----------------------------------
 
-ライセンスを明示する
- 
-
-"hoge" is under [MIT license](https://en.wikipedia.org/wiki/MIT_License).
+"Area-ExtractApp" is under [MIT license](https://en.wikipedia.org/wiki/MIT_License).
