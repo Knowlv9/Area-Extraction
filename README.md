@@ -4,9 +4,11 @@
  
 # DEMO
 -----------------------------------
-<video controls width="100%" autoplay loop muted="true" src="./README/demo.mp4" type="video/mp4" >
-Sorry, your browser doesn't support embedded videos.
-</video>
+
+
+https://user-images.githubusercontent.com/80980441/182575158-90d20bf3-eac9-4881-bbc4-976fa1b84ef0.mp4
+
+
  
 # Requirement
 -----------------------------------
