@@ -1,59 +1,14 @@
 {
 	"classify": {
-		"1": {
-			"id": "ClassifySur",
-			"innerHTML": "表層細胞",
-			"class": "class_sur"
-		},
-		"2": {
-			"id": "ClassifyInt",
-			"innerHTML": "中層細胞",
-			"class": "class_int"
-		},
-		"3": {
-			"id": "ClassifyBase",
-			"innerHTML": "(傍)基底細胞",
-			"class": "class_base"
-		},
-		"4": {
-			"id": "ClassifyInf",
-			"innerHTML": "炎症細胞",
-			"class": "class_inf"
-		},
-		"5": {
-			"id": "ClassifySClu",
-			"innerHTML": "小集塊",
-			"class": "class_sclu"
-		},
-		"6": {
-			"id": "ClassifyClu",
-			"innerHTML": "集塊",
-			"class": "class_clu"
-		},
-		"7": {
-			"id": "ClassifyXCell",
-			"innerHTML": "その他細胞",
-			"class": "class_xcell"
-		},
-		"8": {
-			"id": "ClassifyAnom",
-			"innerHTML": "異常",
-			"class": "class_anom"
-		},
-		"9": {
-			"id": "ClassifyTest",
-			"innerHTML": "テスト",
-			"class": "class_test"
-		},
-		"10": {
-			"id": "ClassifyNuclear",
-			"innerHTML": "核",
-			"class": "class_nuclear"
-		},
 		"0": {
 			"id": "ClassifyEtc",
 			"innerHTML": "無視",
 			"class": "class_etc"
+		},
+		"1": {
+			"id": "ClassifySur",
+			"innerHTML": "表層細胞",
+			"class": "class_sur"
 		}
 	}
 }
